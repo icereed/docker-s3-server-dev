@@ -14,4 +14,5 @@ COPY create_bucket.js /create_bucket.js
 COPY launch_server.sh /launch_server.sh
 VOLUME /tmp
 EXPOSE 5000
+WORKDIR /
 CMD [ "sh", "launch_server.sh" ]
