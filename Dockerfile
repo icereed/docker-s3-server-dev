@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:latest 
+FROM node:6
 
 
 RUN useradd -d /tmp -g root s3user
